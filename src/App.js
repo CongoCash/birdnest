@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {Grid, Row, Col} from 'react-bootstrap';
+import NavbarTop from './navbar-top/NavbarTop.js';
+import SpaceForm from './space-form/SpaceForm.js';
+import Space from './space/Space.js';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <React.Fragment>
+        <Grid fluid>
+          <NavbarTop />
+          <Row className="margin-top85">
+            <Col sm={7}>
+              <SpaceForm/>
+              <Space />
+            </Col>
+            <Col sm={5}>
+              <img className="map" src="https://i.imgur.com/OkNjxRC.png"/>
+            </Col>
+          </Row>
+        </Grid>
+      </React.Fragment>
     );
   }
 }

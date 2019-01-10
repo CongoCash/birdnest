@@ -1,0 +1,8 @@
+.form-horizontal {
+    padding: 30px 30px 30px 0;
+    border: 1px solid lightgrey;
+}
+
+.result-found {
+    padding-left: 25px;
+}

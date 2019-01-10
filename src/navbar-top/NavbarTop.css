@@ -1,0 +1,39 @@
+#nav-col {
+    padding: 0;
+}
+
+.nav-height {
+    height: 75px;
+}
+
+.navbar-header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-height > .container {
+    height: 100%;
+}
+
+.nav > li {
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
+    color: #49b3b3;
+}
+
+.nav-color {
+    color: #454545;
+}
+
+.fixed-nav {
+    position: fixed;
+    height: 85px;
+    z-index: 2;
+    width: 100%;
+}

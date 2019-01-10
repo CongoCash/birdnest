@@ -30,3 +30,27 @@
     transform: rotate(360deg);
   }
 }
+
+h4 {
+  font-family: 'avenir' !important;
+  padding: 20px;
+}
+
+.align-left {
+  text-align: left !important;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.margin-top85 {
+  margin-top: 85px;
+}
+
+.map {
+  position: fixed;
+  width: 40%;
+  top: 85px;
+  bottom: 0;
+}
